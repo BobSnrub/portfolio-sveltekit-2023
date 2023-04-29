@@ -199,9 +199,11 @@
 							d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
 						/></svg
 					>
-					<span><strong>Note:</strong> Will be implemented soon. Please check back later.</span>
+					<span><strong>Note:</strong> I'm working on improving this section. For now, here is the experience section from my resume:</span>
 				</div>
 			</div>
+
+			<img class="max-w-3xl w-full mx-auto mt-10 rounded-lg" src="/images/skills-resume-screenshot.png" alt="Skills section from resume">
 		</Section>
 
 		<Section sectionTitle="Skills" anchorName="skills">
