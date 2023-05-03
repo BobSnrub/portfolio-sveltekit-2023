@@ -1,4 +1,6 @@
+<!-- this is some of my code. feel free to do whatever with it -->
 
+<!-- 
 <div class="block sm:hidden my-6">
     <div class="flex items-center">
         <div class="badge badge-accent"></div>
@@ -596,4 +598,4 @@
             <div class="badge badge-secondary">Intermediate</div>
         </div>
     </li>
-</ul>
+</ul> -->
