@@ -28,22 +28,6 @@
 	<meta property="og:locale" content="en_US" />
 </svelte:head>
 
-<!-- <section class="hero min-h-screen bg-base-200 shadow bg-gradient-to-b from-base-300 to-base-100">
-    <div class="hero-content flex-col lg:flex-row">
-        <img src="/images/Robert_Burns_Headshot-1.jpg" class="max-w-sm rounded-lg shadow-2xl" />
-        <div>
-            <h1 class="text-5xl font-bold">Robert Burns</h1>
-            <p class="py-6">
-                Hi, I'm Robert Burns, a certified software engineer.  I have been coding for over three years now and have gained 
-                <a class="link" href="/#skills">skills</a>
-                in many languages and frameworks. I'm passionate about creating innovative solutions and solving complex problems through clean, efficient, and scalable code.
-            </p>
-        </div>
-    </div>
-</section> -->
-
-<!-- <div class="bg-gradient-to-b from-base-200 to-base-100 h-24"></div> -->
-
 <main id="top" class="w-full bg-base-100 shadow-md p-4">
 	<div class="max-w-5xl mx-auto py-6">
 		<Section topDivider={false}>
@@ -119,34 +103,18 @@
 
 		<Section sectionTitle="About me" anchorName="about">
 			<div class="relative">
-				<div class={`${readMore ? '' : 'line-clamp-6'} pb-3`}>
+				<div class={`${readMore ? 'line-clamp-none' : 'line-clamp-6'} pb-3`}>
 					<p class="text-lg pb-6">
-						Throughout my childhood, I had a knack for problem-solving and fixing things for the
-						people around me. From computers to farm equipment, I did it all. This aptitude for
-						solving mechanical problems, combined with my attention to detail and ability to keep
-						track of complex systems, has led to making me the Software Engineer I am today.
+						Throughout my childhood, I had a knack for problem-solving and fixing things for the people around me. From computers to farm equipment, I did it all. This aptitude for solving mechanical problems, combined with my attention to detail and ability to keep track of complex systems, has led to making me the Software Engineer I am today.
 					</p>
 					<p class="text-lg whitespace-pre-line pb-6">
-						Shortly after highschool, not finding any college opportunities, I found CodeStack
-						Academy. CodeStack is an accelerated Software Engineering program by the San Joaquin
-						County Office of Education. I went from minimal knowledge of programming to making full
-						stack web apps in less than 10 months. Upon completion of the course, I received a
-						Software Engineering Certificate signed by the San Joaquin county superintendent of
-						schools. I am also proud to have been the youngest person to have graduated from
-						CodeStack up to that point.
+						Shortly after highschool, not finding any college opportunities, I found CodeStack Academy. CodeStack is an accelerated Software Engineering program by the San Joaquin County Office of Education. I went from minimal knowledge of programming to making full stack web apps in less than 10 months. Upon completion of the course, I received a Software Engineering Certificate signed by the San Joaquin county superintendent of schools. I am also proud to have been the youngest person to have graduated from CodeStack up to that point.
 					</p>
 					<p class="text-lg whitespace-pre-line pb-6">
-						The year after CodeStack, I started classes for a degree in Electrical Engineering.
-						Between classes I’d find myself coding websites configuring my raspberry pi web server,
-						3d printing, and doing Arduino and IOT projects. Due to recent circumstances, I have put
-						a temporary pause on college and have been focusing more on developing my skills as a
-						Web Developer.
+						The year after CodeStack, I started classes for a degree in Electrical Engineering. Between classes I’d find myself coding websites configuring my raspberry pi web server, 3d printing, and doing Arduino and IOT projects. Due to recent circumstances, I have put a temporary pause on college and have been focusing more on developing my skills as a Web Developer.
 					</p>
 					<p class="text-lg whitespace-pre-line">
-						Known for thinking outside the box, being a hard worker, honest, and clean-cut, I am
-						confident in my ability to take on any challenge and deliver the best results possible.
-						Overall, my problem solving abilities, technical mindset, and maintaining an attention
-						to detail makes me a valuable addition to any team.
+						Known for thinking outside the box, being a hard worker, honest, and clean-cut, I am confident in my ability to take on any challenge and deliver the best results possible. Overall, my problem solving abilities, technical mindset, and maintaining an attention to detail makes me a valuable addition to any team.
 					</p>
 				</div>
 
@@ -185,7 +153,7 @@
 		</Section>
 
 		<Section sectionTitle="Experience" anchorName="experience">
-			<div class="alert p-3 alert-info shadow-lg w-full sm:w-max">
+			<div class="alert p-3 alert-info shadow-lg text-red">
 				<div>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
