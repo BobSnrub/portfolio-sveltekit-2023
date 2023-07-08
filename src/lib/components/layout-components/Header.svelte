@@ -100,16 +100,15 @@ async function simulateTyping() {
 	</div>
 </div>
 
-<div class={`relative w-full bg-warning text-warning-content text-center py-2 px-4 ${bannerVis ? "" : "hidden"}`}>
+<!-- <div class={`relative w-full bg-warning text-warning-content text-center py-2 px-4 ${bannerVis ? "" : "hidden"}`}>
     <span class="text-md font-semibold font-mono">
         This is my new Portfolio Webite and it is under development! <br /> If you'd like to view my original porfolio (slightly outdated), please go to
 		<a class="font-bold underline after:content-['↗']" href="https://original.rburns.net/" target="_blank">original.rburns.net</a>
-        <!-- <a class="link" href="https://original.rburns.net/" target="_blank">original.rburns.net</a> -->
     </span>
     <span on:click={() => bannerVis = !bannerVis} class="absolute font-sans right-0 top-1/2 -translate-y-1/2 text-2xl font-semibold text-red-500 cursor-pointer m-1 border-2 border-red-500 rounded-full">
         <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M10.657 12.071L5 6.414L6.414 5l5.657 5.657L17.728 5l1.414 1.414l-5.657 5.657l5.657 5.657l-1.414 1.414l-5.657-5.657l-5.657 5.657L5 17.728z"/></svg>
     </span>
-</div>
+</div> -->
 
 <style>
     .cursor-text {
