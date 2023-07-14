@@ -486,114 +486,116 @@
     </div>
 </div>
 
-<h3 class="text-xl text-center font-semibold mt-10 mb-2">Other Technologies:</h3>
-<ul class="grid md:grid-cols-2 gap-y-2 py-4 rounded-lg shadow-md border-2 border-base-200">
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Raspberry Pi</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>NGINX</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Caddy</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Cloudflare</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>AWS</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Arduino</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>IOT</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Home Lab/Web Server</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Docker</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Dockerfile</span>
-            <div class="badge badge-primary w-24">Beginner</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>3d Printing</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Autodesk Fusion360</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Autodesk Inventor</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>VS Code</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Visual Studio</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>AdobeXD</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Notepad++</span>
-            <div class="badge badge-secondary w-">Intermediate</div>
-        </div>
-    </li>
-    <li>
-        <div class="w-72 mx-auto flex justify-between">
-            <span>Postman</span>
-            <div class="badge badge-secondary">Intermediate</div>
-        </div>
-    </li>
-</ul>
+<div class=" rounded-lg shadow-md border-2 border-base-200 mt-12 mb-2">
+    <h3 class="text-xl text-center font-semibold py-3 bg-base-200">Other Technologies:</h3>
+    <ul class="grid md:grid-cols-2 gap-y-2 py-4">
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Raspberry Pi</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>NGINX</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Caddy</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Cloudflare</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>AWS</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Arduino</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>IOT</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Home Lab/Web Server</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Docker</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Dockerfile</span>
+                <div class="badge badge-primary w-24">Beginner</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>3d Printing</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Autodesk Fusion360</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Autodesk Inventor</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>VS Code</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Visual Studio</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>AdobeXD</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Notepad++</span>
+                <div class="badge badge-secondary w-">Intermediate</div>
+            </div>
+        </li>
+        <li>
+            <div class="w-72 mx-auto flex justify-between">
+                <span>Postman</span>
+                <div class="badge badge-secondary">Intermediate</div>
+            </div>
+        </li>
+    </ul>
+</div>
