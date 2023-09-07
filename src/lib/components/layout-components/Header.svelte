@@ -9,6 +9,10 @@
 			page: '/#about'
 		},
 		{
+			name: 'Projects',
+			page: '/#projects'
+		},
+		{
 			name: 'Experience',
 			page: '/#experience'
 		},
@@ -54,7 +58,7 @@ async function simulateTyping() {
 </script>
 
 <!-- sticky top-0 -->
-<div data-theme="dark" class="sticky top-0 navbar shadow-sm shadow-slate-700 z-20 bg-slate-900 bg-opacity-90 backdrop-invert backdrop-blur-sm w-full">
+<div data-theme="dark" class="sticky top-0 navbar shadow-sm shadow-slate-700 z-20 bg-slate-900 bg-opacity-95 backdrop-invert backdrop-blur-sm w-full">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<label tabindex="0" class=" lg:hidden">

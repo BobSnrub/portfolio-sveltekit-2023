@@ -1,0 +1,55 @@
+{
+"projects":[
+    {
+        "title":"This is my first project card!",
+        "slugOrUrl":"markdowntest.md",
+        "imgUrl":"placeholder-code.jpg",
+        "description":"For now, all this card data is just in a static json file. The card \"VIEW\" button opens /projects/[slug]. The slug is intended for the file name of the markdown file, e.g. \"markdowntest.md\".",
+        "date":"July, 2023",
+        "newProject": true,
+        "tags": [
+            "First",
+            "Card Component",
+            "JSON Data"
+        ]
+    },
+    {
+        "title":"Maybe feature this website?",
+        "slugOrUrl":"https://rburns.net",
+        "imgUrl":"rburns-net-qr-code.png",
+        "description":"Stack: SvelteKit, TailwindCSS, DaisyUI, and possible pocketbase or a simple express/mongo backend in the future!",
+        "date":"July, 2023",
+        "newProject": true,
+        "tags": [
+            "SvelteKit",
+            "Tailwind",
+            "DaisyUI",
+            "Pocketbase"
+        ]
+    },
+    {
+        "title":"Empty Card",
+        "slugOrUrl":"markdowntest.md",
+        "imgUrl":"placeholder-code.jpg",
+        "description":"Just a placeholder for future projects!",
+        "date":"July, 2023",
+        "newProject": false,
+        "tags": [
+            "Tag1",
+            "Tag2"
+        ]
+    },
+    {
+        "title":"Empty Card",
+        "slugOrUrl":"markdowntest.md",
+        "imgUrl":"placeholder-code.jpg",
+        "description":"Just a placeholder for future projects!",
+        "date":"July, 2023",
+        "newProject": false,
+        "tags": [
+            "Tag1",
+            "Tag2"
+        ]
+    }
+]
+}

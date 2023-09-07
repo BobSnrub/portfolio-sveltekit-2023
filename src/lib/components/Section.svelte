@@ -15,8 +15,8 @@
         <h2 class="text-3xl font-semibold mb-4">{sectionTitle}</h2>
     {:else if sectionTitle !== undefined && anchorName !== undefined}
         <h2 class="text-3xl font-semibold mb-4 flex items-center gap-2">
-            <a href={`/#${anchorName}`} class="cursor-pointer">
-                <span class="font-mono text-2xl text-slate-500 font-normal">#</span>
+            <a href={`/#${anchorName}`} class="text-slate-500 hover:text-base-content hover:link">
+                <span class="font-mono text-2xl font-normal">#</span>
             </a>
             {sectionTitle}
         </h2>
