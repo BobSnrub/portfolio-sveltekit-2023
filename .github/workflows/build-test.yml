@@ -1,0 +1,21 @@
+name: Build and Test Dockerized App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build Docker image
+        run: docker build -t portfolio .
+        working-directory: ~/portfolio-sveltekit-2023/  # Specify the directory containing your Dockerfile
+
+      - name: Run Tests in Docker Container
+        run: docker run -itd --network tunnel-sites --restart unless-stopped --name portfolio portfolio
