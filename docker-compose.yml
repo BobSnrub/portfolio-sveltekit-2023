@@ -1,0 +1,11 @@
+version: '1'
+services:
+  frontend:
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    networks:
+    - tunnel-sites
+    restart: unless-stopped
+    env_file:
+      - ~/portfolio-sveltekit-2023/.env

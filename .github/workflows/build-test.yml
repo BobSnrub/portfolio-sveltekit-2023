@@ -15,7 +15,13 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t portfolio .
-        working-directory: .  # Specify the directory containing your Dockerfile
+        working-directory: .
 
-      - name: Run Tests in Docker Container
-        run: docker run -itd --network tunnel-sites --restart unless-stopped --name portfolio portfolio
+      - name: Start Docker Compose
+        run: docker-compose up -d
+
+      # - name: Run Tests in Docker Container
+      #   run: docker-compose exec portfolio
+
+      # - name: Stop Docker Compose
+      #   run: docker-compose down
