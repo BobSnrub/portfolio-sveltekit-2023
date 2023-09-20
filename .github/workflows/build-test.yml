@@ -15,7 +15,7 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t portfolio .
-        working-directory: ~/portfolio-sveltekit-2023/  # Specify the directory containing your Dockerfile
+        working-directory: .  # Specify the directory containing your Dockerfile
 
       - name: Run Tests in Docker Container
         run: docker run -itd --network tunnel-sites --restart unless-stopped --name portfolio portfolio
